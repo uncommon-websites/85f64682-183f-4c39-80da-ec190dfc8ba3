@@ -7,16 +7,50 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+	title="Your AI Executive Assistant for Business Excellence"
+	subtitle="Join thousands of professionals who save 10+ hours weekly with Serif's intelligent email automation and business management tools."
+	centered={false}
+	customers={[
+		{
+			name: "Sarah Chen",
+			position: "Business Broker",
+			imageSrc: "/generated/image-a-confident-businesswoman-dressed-in-a-s.webp"
+		},
+		{
+			name: "Michael Rodriguez", 
+			position: "Agency Owner",
+			imageSrc: "/generated/image-a-focused-businessman-in-a-tailored-suit.webp"
+		},
+		{
+			name: "Jennifer Walsh",
+			position: "Sales Manager", 
+			imageSrc: "/generated/image-a-dynamic-businesswoman-in-a-sharp-profe.webp"
+		},
+		{
+			name: "David Park",
+			position: "Executive",
+			imageSrc: "/generated/image-a-charismatic-businessman-in-a-modern-wo.webp"
+		},
+		{
+			name: "Lisa Thompson",
+			position: "Real Estate Broker",
+			imageSrc: "/generated/image-a-poised-businesswoman-in-a-chic-profess.webp"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by industry leaders" 
+	logoUrls={[
+		'https://logo.clearbit.com/remax.com',
+		'https://logo.clearbit.com/salesforce.com',
+		'https://logo.clearbit.com/hubspot.com',
+		'https://logo.clearbit.com/shopify.com'
+	]}
+/>
 
 <Summary
 	generating
