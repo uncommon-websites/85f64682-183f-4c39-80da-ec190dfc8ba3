@@ -33,7 +33,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"When I looked at our calendar, I realized I was doing less real work and more admin. Serif came from solving that for myself."`}
 			/>
 
 			<!-- Team Member & CTA Section -->

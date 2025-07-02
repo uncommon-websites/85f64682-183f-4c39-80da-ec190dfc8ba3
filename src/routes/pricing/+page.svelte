@@ -17,33 +17,47 @@
 <Testimonials
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Linh Dai",
+			position: "Founder & Creative Lead",
+			company: "Snaplight Agency",
 			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"I used to spend 3–4 hours a day just trying to stay on top of email. Serif now does 90% of that for me—and we closed the last quarter up 27% in client volume without adding headcount.",
+			image: "/generated/image-a-professional-headshot-of-a-hispanic-wo.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Ernesto Ruiz",
+			position: "VP of Growth",
+			company: "Assort Health",
 			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"With Serif running follow-ups automatically on behalf of our sales team, we save over 180 hours a month and cut our sales cycle by 9%. The ROI is instant.",
+			image: "/generated/image-a-professional-headshot-of-a-black-man-e.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Alex Stattner",
+			position: "Top Business Broker",
+			company: "U.S. Business Brokerage",
 			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
+				"Serif helped me streamline buyer outreach, seller updates, and due diligence follow-ups in one place. I now manage over 150+ emails a day solo and still have time to close 6-figure deals weekly.",
+			image: "/generated/image-a-professional-headshot-of-an-asian-woma.webp"
 		}
 	]}
 />
 
-<CallToAction />
+<CallToAction
+	title="The top professionals already use Serif. Now it's your turn."
+	subtitle="Experience email freedom now"
+	description="Join the pros saving hours every day, with 1M+ emails drafted and a 59% success rate. Your assistant is standing by."
+	imageSrc="/generated/image-a-professional-business-owner-sitting-at.webp"
+	callsToAction={[
+		{
+			href: "/signup",
+			label: "Start free trial",
+			variant: "primary"
+		},
+		{
+			href: "/demo",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>

@@ -53,107 +53,123 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Serif is your AI-powered executive assistant that transforms how people-facing professionals manage their business communication. We auto-draft emails in seconds, build persistent knowledge bases, and help you achieve true email freedom. Join thousands of professionals who save 10+ hours weekly with our intelligent automation tools."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Mario Cervetti",
+			position: "Founder",
+			company: "Assort Health",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"Serif saved our sales team 190 hours monthly and helped us close deals 9% faster. The ROI was immediate - we recovered our investment in the first week alone.",
 			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-businessman-wearing-a-sle.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Reena Zhang",
+			position: "Top Business Broker",
+			company: "National Transactions Group",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"Managing 150+ emails daily was consuming my life. Now Serif saves me 10+ hours every week while reducing the risk of missing critical client communications.",
 			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-businesswoman-in-a-contem.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Felix Monroe",
+			position: "Owner",
+			company: "HM Web Agency",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"Serif paid for itself within days. My agency now closes deals 2x faster and I've eliminated the money drain of missed follow-ups and delayed responses.",
 			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				"/generated/image-a-professional-businessman-in-business-c.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why professionals choose Serif"
+	subtitle="The AI executive assistant that transforms how you work"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "AI email automation",
+			description: "Save 10+ hours weekly with intelligent email drafting that learns your voice and handles responses automatically."
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "24/7 executive assistant",
+			description: "Your AI assistant works around the clock, managing conversations and keeping deals moving even while you sleep."
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Persistent knowledge base",
+			description: "Every interaction builds your business memory - SOPs, relationships, and preferences that make each response smarter."
+		},
+		{
+			title: "Enterprise-grade security",
+			description: "SOC 2 Type 2 compliant with encrypted data at rest, ensuring your emails never train general AI models."
+		},
+		{
+			title: "Seamless integrations",
+			description: "Works perfectly with Gmail and Outlook, automatically labeling emails and maintaining your existing workflow."
+		},
+		{
+			title: "Team collaboration",
+			description: "Shared knowledge bases and playbooks ensure consistent communication across your entire organization."
 		}
 	]}
 />
 
 <UseCases
-	generating
 	title="Use Cases"
 	subtitle="Real-world applications for your business needs"
 	useCases={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Email overflow management",
+			description: "When your inbox becomes overwhelming and critical emails get buried, Serif's AI triages everything instantly, auto-drafts responses, and ensures no important communication falls through the cracks.",
+			image: "/generated/image-a-group-of-business-executives-in-a-mode.webp",
 			link: {
-				href: "/use-cases/workflows",
+				href: "/use-cases/email-management",
 				label: "Learn more"
 			}
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
+			title: "Sales acceleration",
+			description: "Close deals 2x faster with instant follow-ups and contextual responses. Serif learns your sales process and maintains momentum across every prospect conversation without manual intervention.",
+			image: "/generated/image-sales-professionals-gathered-in-a-stylis.webp",
 			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
+				href: "/use-cases/sales-acceleration",
+				label: "Learn more"
 			}
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+			title: "Business scaling support",
+			description: "Scale your operations without scaling your administrative burden. Serif becomes your 24/7 executive assistant, managing increasing communication volume while you focus on growth.",
+			image: "/generated/image-entrepreneurs-in-an-open-plan-workspace-.webp",
 			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
+				href: "/use-cases/business-scaling",
+				label: "Learn more"
 			}
 		}
 	]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Stop drowning in email"
+	subtitle="Start growing your business" 
+	description="Join 1,000+ professionals who save 10+ hours weekly with Serif's AI-powered executive assistant. Auto-draft emails, manage conversations, and focus on what actually grows your business."
+	imageSrc="/generated/image-a-happy-and-confident-business-professio.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Try Serif free",
+			variant: "primary"
+		},
+		{
+			href: "/demo",
+			label: "See how it works",
+			variant: "secondary"
+		}
+	]}
+/>

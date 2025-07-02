@@ -35,116 +35,137 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Choose your AI executive assistant",
+		subtitle = "Save hours every day with AI-powered email management and task automation",
+		tierNames = ["Professional", "Business", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Monthly emails drafted",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
+					Professional: "500",
+					Business: "2,500",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
 				name: "Team members",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
+					Professional: "1",
+					Business: "10",
 					Enterprise: "Unlimited"
 				}
 			},
 			{
-				name: "Storage",
+				name: "Email integrations",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					Professional: "Gmail, Outlook",
+					Business: "Gmail, Outlook",
+					Enterprise: "Gmail, Outlook + Custom"
 				}
 			},
 			{
-				name: "API access",
+				name: "AI knowledge base",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Professional: true,
+					Business: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Custom workflows",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Professional: "Basic",
+					Business: "Advanced",
+					Enterprise: "Custom"
+				}
+			},
+			{
+				name: "Team knowledge sharing",
+				tiers: {
+					Professional: false,
+					Business: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Analytics & insights",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Professional: "Basic",
+					Business: "Advanced",
+					Enterprise: "Custom reports"
 				}
 			},
 			{
 				name: "Support response time",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
+					Professional: "24 hours",
+					Business: "4 hours",
 					Enterprise: "1 hour"
 				}
 			},
 			{
-				name: "Dedicated account manager",
+				name: "Custom integrations",
 				tiers: {
-					Starter: false,
-					Pro: false,
+					Professional: false,
+					Business: false,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "SOC 2 Type 2 compliance",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					Professional: true,
+					Business: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Dedicated success manager",
+				tiers: {
+					Professional: false,
+					Business: false,
+					Enterprise: true
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Professional",
+				monthlyPrice: 39,
+				yearlyPrice: 29, // 25% savings
+				description: "Perfect for individual professionals and entrepreneurs",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"500 AI-drafted emails per month",
+					"Gmail & Outlook integration",
+					"Personal AI knowledge base",
+					"Email auto-labeling & organization",
+					"Basic workflow automation",
+					"Mobile app access",
+					"Email support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Start free trial",
+					href: "/signup?plan=professional"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Business",
+				monthlyPrice: 129,
+				yearlyPrice: 99, // 23% savings
+				description: "For growing teams and small businesses",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"2,500 AI-drafted emails per month",
+					"Up to 10 team members",
+					"Shared team knowledge base",
+					"Advanced workflow customization",
+					"Team analytics dashboard",
+					"Priority support (4hr response)",
+					"Custom email templates",
+					"Multi-turn conversation handling"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Start free trial",
+					href: "/signup?plan=business"
 				},
 				highlight: true
 			},
@@ -152,15 +173,17 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "For large organizations with custom requirements",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"Unlimited AI-drafted emails",
+					"Unlimited team members",
+					"Custom integrations & API access",
+					"Advanced security & compliance",
+					"Dedicated success manager",
+					"Custom workflow development",
+					"White-label options",
+					"99.9% uptime SLA",
+					"On-premise deployment available"
 				],
 				cta: {
 					label: "Contact sales",

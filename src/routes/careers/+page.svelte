@@ -24,18 +24,18 @@
 
 	const benefits = [
 		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
+			title: "Shape the future of AI",
+			description: "Work on cutting-edge AI technology that's already helped send 1 million emails and serves top professionals worldwide.",
 			icon: IconBriefcase
 		},
 		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
+			title: "Exponential growth opportunity",
+			description: "Join a team scaling from 0 to $400K ARR in 5 months with 83.8% retention and massive expansion plans.",
 			icon: IconUsers
 		},
 		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
+			title: "Impact at scale",
+			description: "Help people-facing professionals save hundreds of hours while building the business management platform of the future.",
 			icon: IconHeart
 		}
 	];
@@ -122,31 +122,31 @@
 
 	const employeeTestimonials = [
 		{
-			name: "Michael Chen",
-			position: "Senior Developer",
+			name: "Sarah Kim",
+			position: "Senior Software Engineer",
 			company: "Engineering Team",
 			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
+				"Building AI that's already processed 1 million emails and maintains 83% retention is incredibly rewarding. The technical challenges of creating an executive assistant that truly understands business context push me to innovate every day, and our rapid growth from 0 to 400K ARR shows the real impact of our work.",
 			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-an-asian-woma.webp"
 		},
 		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
+			name: "Jordan Williams",
+			position: "Product Manager",
+			company: "Product Team",
 			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
+				"Working at Serif means building products that save professionals hundreds of hours while scaling from startup to enterprise in months, not years. The growth opportunities are incredible when you're helping create the future of AI business tools and seeing our 74% retention prove we're solving real problems.",
 			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-a-black-man-w.webp"
 		},
 		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
+			name: "Maria Rodriguez",
+			position: "Marketing Director",
 			company: "Marketing Team",
 			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
+				"The collaborative culture here is unlike anywhere I've worked - everyone from Kevin to the newest engineer is focused on our mission to give professionals email freedom. Marketing revolutionary AI technology that genuinely transforms how people work is both challenging and deeply fulfilling.",
 			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+				"/generated/image-a-professional-headshot-of-a-hispanic-wo.webp"
 		}
 	];
 
@@ -155,35 +155,35 @@
 			step: 1,
 			title: "Apply",
 			description:
-				"Submit your application through our careers portal with your resume and portfolio."
+				"Send your resume and a brief note about why you want to help build the future of AI executive assistance. Show us what makes you excited about transforming how professionals work."
 		},
 		{
 			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
+			title: "Connect & explore",
+			description: "We'll have an in-depth conversation about your experience, our mission to reach $1B, and how you can help us scale from 400K ARR to the next level."
 		},
 		{
 			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
+			title: "Start building",
+			description: "Join Kevin and the team working on AI that saves professionals hundreds of hours and helps them run billion-dollar businesses with minimal overhead."
 		}
 	];
 
 	const values = [
 		{
 			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
+			title: "AI-first innovation",
+			description: "We're building the future where AI becomes your most trusted business partner, starting with email freedom and expanding to full executive assistance."
 		},
 		{
 			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
+			title: "Customer obsession",
+			description: "From top business brokers to healthcare teams, we're relentlessly focused on helping people-facing professionals reclaim their time and scale their success."
 		},
 		{
 			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
+			title: "Rapid execution",
+			description: "We move fast and think big - achieving 400K ARR in 5 months while maintaining 83.8% retention and planning our path to $1B."
 		}
 	];
 </script>
@@ -191,14 +191,14 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Build the future of AI-powered business"
+	subtitle="Join Serif and help people-facing professionals reclaim their time. We're creating the world's most intelligent executive assistant, and we need passionate innovators to make it happen."
+	imageSrc="/generated/image-a-diverse-group-of-professionals-includi.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join Serif?" subtitle="Be part of the AI revolution transforming how professionals work" />
 
 	<div class="mt-16 grid gap-4 md:grid-cols-3">
 		{#each benefits as benefit}
@@ -215,7 +215,7 @@
 <!-- Application Process -->
 <section class={SECTION_BASE_CLASSES}>
 	<div class="mx-auto">
-		<h2 class="text-title1 mb-16">Our application process</h2>
+		<h2 class="text-title1 mb-16">Join the team</h2>
 
 		<div class="grid gap-12 md:grid-cols-3">
 			{#each processSteps as { step, title, description }, i}

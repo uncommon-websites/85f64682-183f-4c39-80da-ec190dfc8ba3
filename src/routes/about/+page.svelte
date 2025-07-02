@@ -11,33 +11,32 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Email freedom",
+			description: "We believe professionals deserve to focus on what matters most, not inbox management."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Privacy first",
+			description: "Your emails are never stored on our servers or used to train AI models. Security is core to our design."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Human-centered AI",
+			description: "We build AI that amplifies human potential rather than replacing it, creating true partnership."
 		}
 	];
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+	title="Empowering professionals with AI"
+	subtitle="Your 24/7 executive assistant for email freedom"
+	imageSrc="/mockups/airport-screen-1751487502252.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Kevin started Serif with a simple but urgent problem—email was eating his days alive. As a founder and people-facing professional himself, he watched countless hours vanish into writing replies, managing follow-ups, and organizing scattered knowledge. He didn't need a better email app. He needed an actual assistant. But for most solo professionals and small teams, that kind of help just wasn't accessible.",
+		"So he set out to build it—creating Serif as a true executive assistant powered by AI. One that could understand your business, draft emails, handle back-and-forths, and free up your schedule. In just 5 months, Serif grew to $400K ARR, powered by an unheard-of 59% email acceptance rate and 83.8% month-one retention. Serif worked—and people started telling others. The viral word of mouth filled early growth without burning a single marketing dollar on paid ads.",
+		"Now, Serif powers thousands of inboxes across industries—from the country's top business broker to fast-growing agencies and B2B sales teams. Customers have sent over 1 million emails with Serif, making only light edits before hitting send. And they're saving hundreds of hours every week getting out of email and back to running their business. For Kevin, the vision stays the same: make inboxes feel lighter, make decisions faster, and help people finally achieve true email freedom."
 	]}
 />
 
@@ -47,56 +46,21 @@
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="Meet the founder."
+	subtitle="Building email freedom for professionals everywhere."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
+			name: "Kevin",
 			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			bio: "Kevin built Serif to solve his own email overwhelm problem, creating an AI executive assistant that helps people-facing professionals reclaim their time.",
+			image: "/generated/image-a-professional-headshot-of-a-business-fo.webp"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Ready for email freedom?"
+	subtitle="Join thousands of professionals"
+	description="Experience the AI assistant that saves hours every week and transforms how you manage your inbox. Start your journey to true email freedom today."
 />
