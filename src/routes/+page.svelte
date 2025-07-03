@@ -12,7 +12,6 @@
 
 <CustomerCardHero
 	title="Your AI Executive Assistant for Business Excellence"
-	subtitle="Join thousands of professionals who save 10+ hours weekly with Serif's intelligent email automation and business management tools."
 	centered={false}
 	customers={[
 		{
