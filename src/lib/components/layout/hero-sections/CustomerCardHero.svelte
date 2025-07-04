@@ -100,8 +100,9 @@ It should ALWAYS have between 3 and 5 customers!
 						href={cta.href}
 						size="lg"
 						variant={index % 2 === 0 ? "primary" : "secondary"}
+						rounded="full"
 						class={[
-							"max-lg:hidden rounded-full",
+							"max-lg:hidden",
 							index % 2 === 0 ? "bg-primary-800 hover:bg-primary-900" : ""
 						]}>{cta.label}</Button
 					>
@@ -109,8 +110,9 @@ It should ALWAYS have between 3 and 5 customers!
 						href={cta.href}
 						size="md"
 						variant={index % 2 === 0 ? "primary" : "secondary"}
+						rounded="full"
 						class={[
-							"lg:hidden rounded-full",
+							"lg:hidden",
 							index % 2 === 0 ? "bg-primary-800 hover:bg-primary-900" : ""
 						]}>{cta.label}</Button
 					>

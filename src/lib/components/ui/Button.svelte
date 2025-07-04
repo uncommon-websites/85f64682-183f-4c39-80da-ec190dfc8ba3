@@ -13,7 +13,7 @@
 		children: Snippet;
 		iconOnly?: boolean;
 		hideLabel?: boolean;
-		rounded?: boolean;
+		rounded?: "default" | "full" | "none";
 		prefix?: Snippet;
 		suffix?: Snippet;
 	};
@@ -28,6 +28,7 @@
 		suffix: Suffix,
 		iconOnly = false,
 		hideLabel = false,
+		rounded = "default",
 		...rest
 	}: Props = $props();
 
@@ -39,10 +40,20 @@
 	};
 
 	const sizes: Record<Size, string> = $derived({
-		sm: iconOnly ? "p-1.5 text-sm" : "px-4 py-1.5 rounded text-sm",
-		md: iconOnly ? "p-2 text-base" : "px-4.5 py-2 rounded text-base",
-		lg: iconOnly ? "p-2.5 text-lg" : "px-5 py-2 rounded-lg text-lg"
+		sm: iconOnly ? "p-1.5 text-sm" : "px-4 py-1.5 text-sm",
+		md: iconOnly ? "p-2 text-base" : "px-4.5 py-2 text-base",
+		lg: iconOnly ? "p-2.5 text-lg" : "px-5 py-2 text-lg"
 	});
+
+	const roundedStyles = {
+		default: {
+			sm: "rounded",
+			md: "rounded",
+			lg: "rounded-lg"
+		},
+		full: "rounded-full",
+		none: "rounded-none"
+	};
 
 	const baseStyles =
 		"inline-flex items-center ring-1 ring-white/15 ring-inset justify-center !font-semibold transition ease-out duration-300 focus:outline-none focus:ring-0 active:brightness-[.9] active:scale-[.98] ring-0 gap-3 [touch-action:manipulation]";
@@ -55,6 +66,7 @@
 		variants[variant],
 		iconOnly && "aspect-square",
 		sizes[size],
+		rounded === "full" ? roundedStyles.full : rounded === "none" ? roundedStyles.none : roundedStyles.default[size],
 		"gap-2",
 		classes
 	]}
