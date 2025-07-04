@@ -71,8 +71,8 @@ It should ALWAYS have between 3 and 5 customers!
 <div class="bg-background" {...rest}>
 	<header
 		class={[
-			"section-px container mx-auto grid items-end gap-16 gap-y-9 text-balance",
-			centered ? "place-items-center py-16 text-center" : "mb-12 pt-24 xl:grid-cols-[1fr_auto]"
+			"section-px container mx-auto grid items-start gap-16 gap-y-9 text-balance",
+			centered ? "place-items-center py-16 text-center" : "mb-12 pt-24 xl:grid-cols-[1fr_auto] xl:items-center"
 		]}
 		data-enter-container
 	>
@@ -94,19 +94,25 @@ It should ALWAYS have between 3 and 5 customers!
 		</div>
 
 		{#if callsToAction.length > 0}
-			<div class="flex gap-4" data-enter>
+			<div class="flex gap-4 items-center" data-enter>
 				{#each callsToAction as cta, index}
 					<Button
 						href={cta.href}
 						size="lg"
 						variant={index % 2 === 0 ? "primary" : "secondary"}
-						class="max-lg:hidden">{cta.label}</Button
+						class={[
+							"max-lg:hidden rounded-full",
+							index % 2 === 0 ? "bg-primary-800 hover:bg-primary-900" : ""
+						]}>{cta.label}</Button
 					>
 					<Button
 						href={cta.href}
 						size="md"
 						variant={index % 2 === 0 ? "primary" : "secondary"}
-						class="lg:hidden">{cta.label}</Button
+						class={[
+							"lg:hidden rounded-full",
+							index % 2 === 0 ? "bg-primary-800 hover:bg-primary-900" : ""
+						]}>{cta.label}</Button
 					>
 				{/each}
 			</div>
