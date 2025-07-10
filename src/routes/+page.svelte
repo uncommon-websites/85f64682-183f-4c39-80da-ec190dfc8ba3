@@ -8,6 +8,7 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
+	import ImageSection from "$lib/components/layout/ImageSection.svelte";
 </script>
 
 <CustomerCardHero
@@ -40,6 +41,10 @@
 			imageSrc: "/generated/image-a-poised-businesswoman-in-a-chic-profess.webp"
 		}
 	]}
+/>
+<ImageSection 
+	imageSrc="/uploaded/1752134372704-cfzfc7q.jpg"
+	alt="Historical map of northern European coastal regions"
 />
 <LogoScroller 
 	label="Trusted by industry leaders" 
